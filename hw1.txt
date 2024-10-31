@@ -1,0 +1,18 @@
+https://github.com/ParkerMcClure/.dotfiles
+I went through the whole assignment and the very last git push command failed, saying I did not have access. I restarted the entire assignment but me the same result. I met with a friend and figured out it was probably from not connecting to a computer lab. Instead I was doing it straight from my computer. After connecting to a desktop, it worked smoothly.
+cd ~
+mkdir .dotfiles
+ls -a
+cd .dotfiles
+pwd
+touch README.md
+vim README.md
+cat README.md
+nano .nanorc
+cp .nanorc ~
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -m main
+git remote add origin git@github.com:ParkerMcClure/.dotfiles
+git push -u origin
